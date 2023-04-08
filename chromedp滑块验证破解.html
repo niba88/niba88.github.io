@@ -8,12 +8,12 @@
   <meta name="viewport"
         content="width=device-width, initial-scale=1.0, user-scalable=no">
   <title>
-    泥巴的博客
+    chromedp滑块验证破解 | 泥巴的博客
   </title>
   <meta name="description" content="">
   
   <meta name="keywords" content="
-  
+  chromedp
   ">
   
   <meta name="author" content="泥巴">
@@ -96,13 +96,13 @@
         <a href="/niba88.github.io/" class="header-toolbar-left"><i
                   class="fa fa-tags"></i> Tags </a>
         <a href="/niba88.github.io/"
-           class="header-toolbar-right"> 0 </a>
+           class="header-toolbar-right"> 1 </a>
       </li>
       <li>
         <a href="/niba88.github.io/" class="header-toolbar-left"><i
                   class="fa fa-folder-open"></i> Categories </a>
         <a href="/niba88.github.io/"
-           class="header-toolbar-right"> 0 </a>
+           class="header-toolbar-right"> 1 </a>
       </li>
     </ul>
     <h2 class="header-title">
@@ -130,17 +130,17 @@
     <i class="fa fa-user-o"></i>
     泥巴
 
-    <span class="post-date float-right" title="{{moment(1680695023861).format('MMM DD, YYYY, h:mm:ss A')}}">
+    <span class="post-date float-right" title="{{moment(1680939115000).format('MMM DD, YYYY, h:mm:ss A')}}">
       
           <i class="fa fa-pencil-square-o"></i>
       
-      {{moment(1680695023861).fromNow()}}
+      {{moment(1680939115000).fromNow()}}
     </span>
   </h3>
 
   <article class="post-content">
-    <h1>Untitle</h1>
-    <h2 id="chromedp滑块验证破解"><a href="#chromedp滑块验证破解" class="headerlink" title="chromedp滑块验证破解"></a>chromedp滑块验证破解</h2><h2 id="title-chromedp滑块验证破解tags-chromedp-categories-自动化脚本-poster-topic-headline-caption-color-date-2023-04-08-15-31-55description-cover-banner"><a href="#title-chromedp滑块验证破解tags-chromedp-categories-自动化脚本-poster-topic-headline-caption-color-date-2023-04-08-15-31-55description-cover-banner" class="headerlink" title="title: chromedp滑块验证破解tags: [chromedp]categories: [自动化脚本]poster:  topic:  headline:  caption:  color:date: 2023-04-08 15:31:55description:cover:banner:"></a>title: chromedp滑块验证破解<br>tags: [chromedp]<br>categories: [自动化脚本]<br>poster:<br>  topic:<br>  headline:<br>  caption:<br>  color:<br>date: 2023-04-08 15:31:55<br>description:<br>cover:<br>banner:</h2><p>用chromedp执行js来实现，具体代码如下：</p>
+    <h1>chromedp滑块验证破解</h1>
+    <p>用chromedp执行js来实现，具体代码如下：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">slider := &quot;jspath&quot;</span><br><span class="line">data := &quot;滑动距离&quot;</span><br><span class="line">code := `var slider = ` + slider + `;</span><br><span class="line">    var rect = slider.getBoundingClientRect(),</span><br><span class="line">        x0 = rect.x || rect.left,</span><br><span class="line">        y0 = rect.y || rect.top,</span><br><span class="line">        x1 = x0 + ` + data + `</span><br><span class="line">        y1 = y0;</span><br><span class="line"></span><br><span class="line">    var mousedown = document.createEvent(&#x27;MouseEvents&#x27;);</span><br><span class="line">    mousedown.initMouseEvent(&#x27;mousedown&#x27;, true, true, window, 0, x0, y0, x0, y0, false, false, false, false, 0, null);</span><br><span class="line">    slider.dispatchEvent(mousedown);  </span><br><span class="line"></span><br><span class="line">    var mousemove = document.createEvent(&#x27;MouseEvents&#x27;);</span><br><span class="line">    mousemove.initMouseEvent(&#x27;mousemove&#x27;, true, true, window, 0, x1, y1, x1, y1, false, false, false, false, 0, null);</span><br><span class="line">    slider.dispatchEvent(mousemove);</span><br><span class="line"></span><br><span class="line">    var mouseout = document.createEvent(&#x27;MouseEvents&#x27;);</span><br><span class="line">    mouseout.initMouseEvent(&#x27;mouseup&#x27;, true, true, window, 0, x1, y1, x1, y1, false, false, false, false, 0, null);</span><br><span class="line">    slider.dispatchEvent(mouseout);`</span><br><span class="line">	//滑动滑块</span><br><span class="line">	chromedp.Run(ctx, chromedp.Tasks&#123;</span><br><span class="line">		chromedp.EvaluateAsDevTools(code, nil),</span><br><span class="line">	&#125;)</span><br></pre></td></tr></table></figure>
 
 
