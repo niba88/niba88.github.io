@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>泥巴的博客</title>
+  <title>chromedp滑动滑块 | 泥巴的博客</title>
   <meta name="keywords" content="">
-  <meta name="description" content="泥巴的博客">
+  <meta name="description" content="chromedp滑动滑块 | 泥巴的博客">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta property="og:type" content="website">
 <meta property="og:title" content="categories">
@@ -166,10 +166,10 @@
         
         
         <a  class="All "
-           href="/niba88.github.io/chromedp%E6%BB%91%E5%9D%97%E9%AA%8C%E8%AF%81%E7%A0%B4%E8%A7%A3"
+           href="/niba88.github.io/chromedp%E6%BB%91%E5%9D%97%E6%BB%91%E5%8A%A8"
            data-tag=""
            data-author="" >
-            <span class="post-title" title=""></span>
+            <span class="post-title" title="chromedp滑动滑块">chromedp滑动滑块</span>
             <span class="post-date" title="2023-04-05 19:43:43">2023/04/05</span>
         </a>
         
@@ -191,7 +191,9 @@
 </aside>
 <div id="post">
     <div class="pjax">
-        <article id="post-chromedp滑块验证破解" class="article article-type-post" itemscope itemprop="blogPost">
+        <article id="post-chromedp滑块滑动" class="article article-type-post" itemscope itemprop="blogPost">
+    
+        <h1 class="article-title">chromedp滑动滑块</h1>
     
     <div class="article-meta">
         
@@ -201,7 +203,7 @@
     </div>
     <div class="article-meta">
         
-            Created At : <time class="date" title='Updated At: 2023-04-08 14:06:02'>2023-04-05 19:43</time>
+            Created At : <time class="date" title='Updated At: 2023-04-08 14:59:44'>2023-04-05 19:43</time>
         
     </div>
     <div class="article-meta">
@@ -234,7 +236,7 @@
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#chromedp%E6%BB%91%E5%9D%97%E9%AA%8C%E8%AF%81%E7%A0%B4%E8%A7%A3"><span class="toc-text">chromedp滑块验证破解</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#title-chromedp%E6%BB%91%E5%9D%97%E9%AA%8C%E8%AF%81%E7%A0%B4%E8%A7%A3tags-chromedp-categories-%E8%87%AA%E5%8A%A8%E5%8C%96%E8%84%9A%E6%9C%AC-poster-topic-%E6%A0%87%E9%A2%98%E4%B8%8A%E6%96%B9%E7%9A%84%E5%B0%8F%E5%AD%97-headline-%E5%A4%A7%E6%A0%87%E9%A2%98-caption-%E6%A0%87%E9%A2%98%E4%B8%8B%E6%96%B9%E7%9A%84%E5%B0%8F%E5%AD%97-color-%E6%A0%87%E9%A2%98%E9%A2%9C%E8%89%B2date-2023-04-05-20-19-40description-cover-banner"><span class="toc-text">title: chromedp滑块验证破解tags: [chromedp]categories: [自动化脚本]poster:  topic: 标题上方的小字  headline: 大标题  caption: 标题下方的小字  color: 标题颜色date: 2023-04-05 20:19:40description:cover:banner:</span></a></li></ol>
+        
     
 <style>
     .left-col .switch-btn,
@@ -250,7 +252,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="chromedp滑块验证破解"><a href="#chromedp滑块验证破解" class="headerlink" title="chromedp滑块验证破解"></a>chromedp滑块验证破解</h2><h2 id="title-chromedp滑块验证破解tags-chromedp-categories-自动化脚本-poster-topic-标题上方的小字-headline-大标题-caption-标题下方的小字-color-标题颜色date-2023-04-05-20-19-40description-cover-banner"><a href="#title-chromedp滑块验证破解tags-chromedp-categories-自动化脚本-poster-topic-标题上方的小字-headline-大标题-caption-标题下方的小字-color-标题颜色date-2023-04-05-20-19-40description-cover-banner" class="headerlink" title="title: chromedp滑块验证破解tags: [chromedp]categories: [自动化脚本]poster:  topic: 标题上方的小字  headline: 大标题  caption: 标题下方的小字  color: 标题颜色date: 2023-04-05 20:19:40description:cover:banner:"></a>title: chromedp滑块验证破解<br>tags: [chromedp]<br>categories: [自动化脚本]<br>poster:<br>  topic: 标题上方的小字<br>  headline: 大标题<br>  caption: 标题下方的小字<br>  color: 标题颜色<br>date: 2023-04-05 20:19:40<br>description:<br>cover:<br>banner:</h2><p>用chromedp执行js来实现，具体代码如下：</p>
+        <p>用chromedp执行js来实现，具体代码如下：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">slider := &quot;jspath&quot;</span><br><span class="line">data := &quot;滑动距离&quot;</span><br><span class="line">code := `var slider = ` + slider + `;</span><br><span class="line">    var rect = slider.getBoundingClientRect(),</span><br><span class="line">        x0 = rect.x || rect.left,</span><br><span class="line">        y0 = rect.y || rect.top,</span><br><span class="line">        x1 = x0 + ` + data + `</span><br><span class="line">        y1 = y0;</span><br><span class="line"></span><br><span class="line">    var mousedown = document.createEvent(&#x27;MouseEvents&#x27;);</span><br><span class="line">    mousedown.initMouseEvent(&#x27;mousedown&#x27;, true, true, window, 0, x0, y0, x0, y0, false, false, false, false, 0, null);</span><br><span class="line">    slider.dispatchEvent(mousedown);  </span><br><span class="line"></span><br><span class="line">    var mousemove = document.createEvent(&#x27;MouseEvents&#x27;);</span><br><span class="line">    mousemove.initMouseEvent(&#x27;mousemove&#x27;, true, true, window, 0, x1, y1, x1, y1, false, false, false, false, 0, null);</span><br><span class="line">    slider.dispatchEvent(mousemove);</span><br><span class="line"></span><br><span class="line">    var mouseout = document.createEvent(&#x27;MouseEvents&#x27;);</span><br><span class="line">    mouseout.initMouseEvent(&#x27;mouseup&#x27;, true, true, window, 0, x1, y1, x1, y1, false, false, false, false, 0, null);</span><br><span class="line">    slider.dispatchEvent(mouseout);`</span><br><span class="line">	//滑动滑块</span><br><span class="line">	chromedp.Run(ctx, chromedp.Tasks&#123;</span><br><span class="line">		chromedp.EvaluateAsDevTools(code, nil),</span><br><span class="line">	&#125;)</span><br></pre></td></tr></table></figure>
 
 
@@ -266,12 +268,12 @@
 
 
 <div class="article_copyright">
-    <p><span class="copy-title">Title:</span></p>
+    <p><span class="copy-title">Title:</span>chromedp滑动滑块</p>
     
     <p><span class="copy-title">Author:</span><a  title="泥巴">泥巴</a></p>
     <p><span class="copy-title">Created At:</span>2023-04-05, 19:43:43</p>
-    <p><span class="copy-title">Updated At:</span>2023-04-08, 14:06:02</p>
-    <span class="copy-title">Url:</span><a class="post-url" href="/niba88.github.io/chromedp%E6%BB%91%E5%9D%97%E9%AA%8C%E8%AF%81%E7%A0%B4%E8%A7%A3" title="">https://niba88.github.io/niba88.github.io/chromedp%E6%BB%91%E5%9D%97%E9%AA%8C%E8%AF%81%E7%A0%B4%E8%A7%A3</a>
+    <p><span class="copy-title">Updated At:</span>2023-04-08, 14:59:44</p>
+    <span class="copy-title">Url:</span><a class="post-url" href="/niba88.github.io/chromedp%E6%BB%91%E5%9D%97%E6%BB%91%E5%8A%A8" title="chromedp滑动滑块">https://niba88.github.io/niba88.github.io/chromedp%E6%BB%91%E5%9D%97%E6%BB%91%E5%8A%A8</a>
     <p>
         <span class="copy-title">Copyright:</span><i class="fa fa-creative-commons"></i> <a rel="license noopener" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">&#39;Attribution-non-commercial-shared in the same way 4.0&#39;</a> Reprint please keep the original link and author.
     </p>
