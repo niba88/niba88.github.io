@@ -22,26 +22,26 @@
 
   <meta property="og:type" content="website">
 <meta property="og:title" content="泥巴的博客">
-<meta property="og:url" content="https://niba88.github.io/niba88.github.io/index.html">
+<meta property="og:url" content="https://niba88.github.io/niba88.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%84%9A%E6%9C%AC/index.html">
 <meta property="og:site_name" content="泥巴的博客">
 <meta property="og:locale">
 <meta property="article:author" content="泥巴">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://niba88.github.io/niba88.github.io/">
+<link rel="canonical" href="https://niba88.github.io/niba88.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%84%9A%E6%9C%AC/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
+    isHome : false,
     isPost : false,
     lang   : 'zh-Hans'
   };
 </script>
 
-  <title>泥巴的博客</title>
+  <title>Category: 自动化脚本 | 泥巴的博客</title>
   
 
 
@@ -149,78 +149,50 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content category">
             
-      
+
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-Hans">
-    <link itemprop="mainEntityOfPage" href="https://niba88.github.io/niba88.github.io/chromedp%E6%BB%91%E5%9D%97%E9%AA%8C%E8%AF%81%E7%A0%B4%E8%A7%A3.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/niba88.github.io/images/avatar.gif">
-      <meta itemprop="name" content="泥巴">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="泥巴的博客">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/niba88.github.io/chromedp%E6%BB%91%E5%9D%97%E9%AA%8C%E8%AF%81%E7%A0%B4%E8%A7%A3.html" class="post-title-link" itemprop="url">chromedp滑块验证破解</a>
+  
+  <div class="post-block">
+    <div class="posts-collapse">
+      <div class="collection-title">
+        <h2 class="collection-header">自动化脚本
+          <small>Category</small>
         </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2023-04-08 16:00:13 / Modified: 16:05:05" itemprop="dateCreated datePublished" datetime="2023-04-08T16:00:13+08:00">2023-04-08</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/niba88.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%84%9A%E6%9C%AC/" itemprop="url" rel="index"><span itemprop="name">自动化脚本</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
+      </div>
 
       
-          <p>用chromedp执行js来实现，具体代码如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">slider := &quot;jspath&quot;</span><br><span class="line">data := &quot;滑动距离&quot;</span><br><span class="line">code := `var slider = ` + slider + `;</span><br><span class="line">    var rect = slider.getBoundingClientRect(),</span><br><span class="line">        x0 = rect.x || rect.left,</span><br><span class="line">        y0 = rect.y || rect.top,</span><br><span class="line">        x1 = x0 + ` + data + `</span><br><span class="line">        y1 = y0;</span><br><span class="line"></span><br><span class="line">    var mousedown = document.createEvent(&#x27;MouseEvents&#x27;);</span><br><span class="line">    mousedown.initMouseEvent(&#x27;mousedown&#x27;, true, true, window, 0, x0, y0, x0, y0, false, false, false, false, 0, null);</span><br><span class="line">    slider.dispatchEvent(mousedown);  </span><br><span class="line"></span><br><span class="line">    var mousemove = document.createEvent(&#x27;MouseEvents&#x27;);</span><br><span class="line">    mousemove.initMouseEvent(&#x27;mousemove&#x27;, true, true, window, 0, x1, y1, x1, y1, false, false, false, false, 0, null);</span><br><span class="line">    slider.dispatchEvent(mousemove);</span><br><span class="line"></span><br><span class="line">    var mouseout = document.createEvent(&#x27;MouseEvents&#x27;);</span><br><span class="line">    mouseout.initMouseEvent(&#x27;mouseup&#x27;, true, true, window, 0, x1, y1, x1, y1, false, false, false, false, 0, null);</span><br><span class="line">    slider.dispatchEvent(mouseout);`</span><br><span class="line">	//滑动滑块</span><br><span class="line">	chromedp.Run(ctx, chromedp.Tasks&#123;</span><br><span class="line">		chromedp.EvaluateAsDevTools(code, nil),</span><br><span class="line">	&#125;)</span><br></pre></td></tr></table></figure>
-
-
-      
+    <div class="collection-year">
+      <span class="collection-header">2023</span>
     </div>
 
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
 
+      <div class="post-meta">
+        <time itemprop="dateCreated"
+              datetime="2023-04-08T16:00:13+08:00"
+              content="2023-04-08">
+          04-08
+        </time>
+      </div>
+
+      <div class="post-title">
+          <a class="post-title-link" href="/niba88.github.io/chromedp%E6%BB%91%E5%9D%97%E9%AA%8C%E8%AF%81%E7%A0%B4%E8%A7%A3.html" itemprop="url">
+            <span itemprop="name">chromedp滑块验证破解</span>
+          </a>
+      </div>
+
+    </header>
+  </article>
+
+    </div>
+  </div>
+  
+  
+  
 
   
 
